@@ -52,16 +52,28 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				'music-player': 'hsl(var(--music-player))',
+				'sidebar-bg': 'hsl(var(--sidebar-bg))',
+				'emotion-joy': 'hsl(var(--emotion-joy))',
+				'emotion-sad': 'hsl(var(--emotion-sad))',
+				'emotion-angry': 'hsl(var(--emotion-angry))',
+				'emotion-calm': 'hsl(var(--emotion-calm))',
+				'emotion-excited': 'hsl(var(--emotion-excited))',
+				'emotion-love': 'hsl(var(--emotion-love))'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-emotion': 'var(--gradient-emotion)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'card': 'var(--shadow-card)',
+				'player': 'var(--shadow-player)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
